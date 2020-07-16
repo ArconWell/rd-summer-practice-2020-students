@@ -1,3 +1,90 @@
 .hidden{
   display: none;
 }
+
+body{
+  background-color: bisque;
+}
+
+#game{
+  background-color: cadetblue;
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+#gameCaption{
+  background-color: blue;
+  padding: 10px;
+  color:azure;
+  font-size: 24px;
+}
+
+.gameCaption-name{
+  font-weight: bold;
+}
+
+.gameCaption-status{
+  background-color: burlywood;
+  color: black;
+  padding: 5px;
+  border: 1px dashed red;
+  border-radius: 8px;
+}
+
+.game-timer-ok{
+  font-size: 30px;
+  text-align: center;
+  display: block;
+  padding: 10px;
+}
+
+#team1, 
+#team2{
+  border: 1px solid blue;
+  border-radius: 5px;
+  padding: 3px;
+  background-color: cornflowerblue;
+}
+
+#team1Caption{
+  background-color: blue;
+  padding: 3px;
+  display: block;
+  width: 80%;
+  border-radius: 3px;;
+}
+
+.teamLives, 
+.teamCoins{
+  display: flex;
+  justify-content: space-between;
+}
+
+#teamStats  
+{
+  margin: 10px 0;
+}
+
+#team1Users,
+#team2Users{
+  font-weight: bold;
+}
+
+#team2{
+  border: 1px solid orange;
+  background-color: lightcoral;
+}
+
+#team2Caption{
+  background-color: darkkhaki;
+  padding: 3px;
+  display: block;
+  width: 80%;
+  border-radius: 3px;;
+}
+
+.game-btn{
+  margin-bottom: 10px;
+}

@@ -79,22 +79,23 @@ body {
 }
 
 #team1Users,
-#team2Users {
+#team2Users{
   font-weight: bold;
 }
 
-#team2 {
-  border: 1px solid red;
-  background-color: lightsalmon;
+#team2{
+  border: 1px solid orange;
+  background-color: lightcoral;
 }
 
-#team2Caption {
+#team2Caption{
   background-color: darkkhaki;
   padding: 3px;
   display: block;
-  border-radius: 3px;
+  width: 80%;
+  border-radius: 3px;;
 }
 
-.game-btn {
+.game-btn{
   margin-bottom: 10px;
 }
